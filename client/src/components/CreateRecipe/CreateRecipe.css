@@ -1,0 +1,52 @@
+#creation{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+form{
+    height: max-content;
+    width: 400px;
+    padding: 1rem;
+    background: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 15px;
+}
+
+#creation div{
+    width: 380px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+#creation div label{
+    margin-right: 1rem;
+}
+
+#creation button{
+    margin-top: 1rem;
+}
+
+.complete{
+    background-color: #e2cac0;
+    position: absolute;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.incomplete{
+    color: rgb(223, 19, 19);
+}
+
+#creation #move{
+    right: -200px;
+    top: 550px;
+}

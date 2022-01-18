@@ -1,0 +1,103 @@
+/*
+colors
+brown c29e94
+light blue d0daec
+pinkish ead4cb
+green 7cc48c
+*/
+body{
+    background-color: #d0daec;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav{
+    background: #c29e94;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#navItems{
+    display: inline-flex;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: #c78876;
+    border: 1px solid #e9e9e9;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    background-color: #e9e9e9;
+    font-size: 1.4rem;
+    box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.344);
+}
+
+h1 span{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p, button, select, span, h2, h3{
+    font-family: 'Lora';
+}
+
+#cardsContainer{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 25%;
+    align-items: flex-start;
+    background: #e2cac0;
+    margin: 1rem;
+    border-radius: 5%;
+};
+
+#home{
+    position: relative;
+}
+
+#move{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    border-radius: 50%;
+}
+
+footer{
+    height: 40px;
+    margin-top: 2rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+input, button, select,input[type="checkbox" i], textarea{
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(211, 185, 152);
+    border: solid 1px rgb(224, 206, 180);
+    color: rgb(95, 95, 107);
+}
+
+button:hover, select:focus, select:hover{
+    background-color: rgb(181, 157, 126);
+    border: solid 1px #bcbbc7;
+    color: rgb(69, 69, 78);
+}

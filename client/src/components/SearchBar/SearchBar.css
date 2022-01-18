@@ -1,0 +1,22 @@
+#searchbar{
+    display: flex;
+    align-items: center;
+}
+
+#searchbar input{
+    margin: 0rem 0.2rem;
+}
+
+button, select{
+    margin: 0rem 1rem 0rem 0.1rem;
+}
+
+#searchbar button {
+    padding: 0px;
+}
+
+#searchbar button img{
+    width: 15px;
+    height: 15px;
+    margin: 0.4rem 0.6rem;
+}

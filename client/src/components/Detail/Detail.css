@@ -1,0 +1,97 @@
+.show{
+    display: block;
+}
+
+.hide{
+    display: none
+}
+
+#detailContainer{
+    position: relative;
+    perspective: 1000px;
+}
+
+#detailContainer img{
+    border: solid white 1rem;
+    width: 350px;
+    height: 350px;
+    margin: 0;
+}
+
+#detailContainer h1{
+    margin: 0;
+    width: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 15px;
+}
+
+.detail{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    line-height: 2rem;
+}
+
+#detailContainer:hover .detail{
+    transform: rotateY(180deg)
+}
+
+.sideInfo{
+    width: 600px;
+}
+
+#detailContainer #scores{
+    width: 600px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+#move{
+    border-radius: 50%;
+    top: 600px;
+}
+
+.types{
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 550px;
+}
+
+.types p{
+    background-color: #e4b7a7;
+    border-radius: 7px;
+    padding: 5px 10px;
+    margin-right: 2rem;
+}
+
+.front, .back{
+    position: absolute;
+    backface-visibility: hidden;
+    background: white;
+    border-radius: 15px;
+    width: 1000px;
+    height: max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+.back{
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
