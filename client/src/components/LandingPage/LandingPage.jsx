@@ -8,10 +8,11 @@ export default function LandingPage() {
         <div id='landing'>
             <div>
                 <h1>time to <br /> <span>GLOW</span></h1>
+
             </div>
-            <div>
+            {/* <div>
                 <h2>You are one step away from a healthier life!</h2>
-            </div>
+            </div> */}
             <div>
                 <Link to='/home'>
                     <button>Let's begin</button>

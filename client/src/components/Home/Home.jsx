@@ -133,6 +133,7 @@ export default function Home() {
                                                         image={r.image}
                                                         dietType={dietType}
                                                         dishTypes={r.dishTypes}
+                                                        score={r.spoonacularScore}
                                                         id={r.id}
                                                     />
                                                 </div>

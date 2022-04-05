@@ -4,6 +4,7 @@
     padding-top: 2rem;
     padding-bottom: 3rem;
     position: relative;
+    color: rgb(82, 65, 44);
 }
 
 form{
@@ -49,4 +50,22 @@ form{
 #creation #move{
     right: -200px;
     top: 550px;
+}
+
+#creation input, #creation textarea{
+    width: 100%;
+    margin: 0.5rem;
+}
+
+#creation .checkboxes input{
+  width: 20%;
+}
+
+#creation .checkboxes{
+    width: 100%;
+    display: inline-flex;
+  }
+
+#creation .diet_types{
+    margin-bottom: 1rem;
 }

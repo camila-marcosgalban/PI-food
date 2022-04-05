@@ -52,7 +52,7 @@ export default function CreateRecipe() {
                 return setIncomplete(validate('invalid'))
             }
             if (e.target.value.length > 15) {
-                return e.target.value.length = 15
+                return e.target.value.substr(0, 15)
             }
         }
         setInput({
@@ -197,14 +197,16 @@ export default function CreateRecipe() {
                     )
                 }
                 <div className="diets">
+                    <label className="diet_types">Diet type: </label>
                     {
                         types?.map((t => {
                             return (
-                                <label>
+                                <label className="checkboxes">
                                     <input
                                         type="checkbox"
                                         value={t.name}
                                         name={t.name}
+                                        className="checkbox"
                                         onChange={handleTypes} /> {t.name}
                                 </label>
                             )

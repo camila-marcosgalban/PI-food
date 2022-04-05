@@ -11,22 +11,33 @@
 }
 
 #landing h1{
-    margin-top: 6rem;
-    font-size: 2rem;
-    width: 200px;
-    height: 100px;
+    margin-top: 10rem;
+    padding: 2rem;
+    font-size: 4rem;
+    width: 350px;
+    height: 150px;
     border-radius: 10px;
-    background-color: #e9e9e9c7;
+    background-color: #e9e9e9e3;
 }
 
 #landing span{
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
-#landing h2{
-    font-size: 1.5rem;
-    text-align: right;
-    bottom: 0;
-    right: 1rem;
-    position: absolute;
+#landing button{
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(211, 185, 152);
+    border: solid 1px rgb(224, 206, 180);
+    color: rgb(95, 95, 107);
+    font-size: medium;
 }
+
+#landing button:hover{
+    background-color: rgb(181, 157, 126);
+    border: solid 1px #bcbbc7;
+    color: rgb(69, 69, 78);
+}
+
+

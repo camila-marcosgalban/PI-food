@@ -37,7 +37,6 @@
     height: 100%;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    line-height: 2rem;
 }
 
 #detailContainer:hover .detail{
@@ -54,9 +53,9 @@
     justify-content: space-evenly;
 }
 
-#move{
+#detailContainer #move{
     border-radius: 50%;
-    top: 600px;
+    top: 90vh;
 }
 
 .types{
@@ -84,7 +83,11 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem;
-    margin: 3rem;
+    margin: 2rem;
+}
+
+.front{
+    line-height: 2rem;
 }
 
 .back{
@@ -94,4 +97,5 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    line-height: 1.6rem;
 }

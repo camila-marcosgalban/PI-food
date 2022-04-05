@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 //css
 import './Card.css'
 
-export default function Card({ id, name, image, dietType, dishTypes }) {
+export default function Card({ id, name, image, dietType, dishTypes, score }) {
     return (
         <div className='cardContainer'>
             <div>
                 <img src={image} alt="image not found" />
                 <p>{name}</p>
+                {/* <p>Score: {score}</p> */}
             </div>
             <div className="info">
                 <div>
